@@ -4,7 +4,7 @@
 
 1. When you wrap up work, edit this README to include your name, a link to the original repository, and a 3-5 sentence reflection on completing this assignment at the top of the document.
 
-1. Push your updates to GitHub, and add a link to your repo to the "My Work" section of your website!
+1. Push your updates to GitHub!
 
 ### Root Route
 
@@ -12,7 +12,7 @@ Create a root route that responds by sending the `index.html` file from the `vie
 
 ### The Number Guessing Game
 
-1. Build a route that allows a user to guess a number through query parameters (for example, `/pickanumber?number=10`).  The route should check the user's number against some target number variable stored in the server code. When the user navigates to this route in the browser, the server should respond with either "Too High", "Too Low" or "Nailed it!" For example, if the target number is 7, then a request to  `/pickanumber?number=10` should trigger a response of `'Too High'`.  
+1. Build a route that allows a user to guess a number through query parameters (for example, `/pick-a-number?number=10`).  The route should check the user's number against some target number variable stored in the server code. When the user navigates to this route in the browser, the server should respond with either "Too High", "Too Low" or "Nailed it!" For example, if the target number is 7, then a request to  `/pick-a-number?number=10` should trigger a response of `'Too High'`.  
 
 1. Add the form below to your `index.html`, and use AJAX in `app.js` to submit it to the route you just created.  Bonus: if the request is succesful, display the server's response on the page.
   ```html
@@ -22,7 +22,7 @@ Create a root route that responds by sending the `index.html` file from the `vie
   </form>
   ```
 
-1. Build another route at `/pick-a-number` that allows a user to submit a form with a new target number for the guessing game.  
+1. Build another route at `/pick-a-number` that allows a user to submit a form with to **change** the target number for the guessing game.  
 
 1. Add the form structure below to your HTML, and use AJAX in `app.js` to submit it to the route you just created.
 
