@@ -22,7 +22,7 @@ Create a root route that responds by sending the `index.html` file from the `vie
   </form>
   ```
 
-1. Build another route at `/pick-a-number` that allows a user to submit a form with to **change** the target number for the guessing game.  
+1. Build another route at `/pick-a-number` that allows a user to submit a form with to **change** the target number for the guessing game.  You can use a POST or PUT for this.
 
 1. Add the form structure below to your HTML, and use AJAX in `app.js` to submit it to the route you just created.
 
