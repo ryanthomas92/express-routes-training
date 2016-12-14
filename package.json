@@ -1,0 +1,22 @@
+{
+  "name": "express-routes-training",
+  "version": "1.0.0",
+  "description": "### Deliverable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanthomas92/express-routes-training.git"
+  },
+  "author": "Ryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanthomas92/express-routes-training/issues"
+  },
+  "homepage": "https://github.com/ryanthomas92/express-routes-training#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

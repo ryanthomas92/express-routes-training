@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 // ROUTES
 // Root Route
-
+app.get
 
 // Gallery View Route
 
